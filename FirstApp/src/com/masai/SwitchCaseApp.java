@@ -28,5 +28,5 @@ public class SwitchCaseApp {
 		{
 			switchCity("Kolkata");
 		}
-	}
+}
 
