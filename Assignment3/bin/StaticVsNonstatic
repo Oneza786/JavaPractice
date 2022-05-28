@@ -1,0 +1,17 @@
+Static and Non-Static are Keywords in java.
+When a Java application is executed, JVM will load all the members of the class which have the keyword "Static"
+i.e, who are static.
+Non-Static members will be there inside the hard disk only.
+Java is highly dynamic, which means that it will load only the required 
+part of the application into the RAM (only static members).
+
+Both methods and variables can be static or non-static.
+but the main method needs to be static only as it is the entry point of
+the application.
+
+
+static int i=10; //This is a static variable of int type
+
+int i=10; //This is a non-static variable of int type
+
+ 
