@@ -1,0 +1,36 @@
+this - this is a key word in java which is basically
+a reference variable points to an object.
+Example-
+        class Student{  
+                 int rollno;  
+                 String name;  
+                 float fee;  
+             Student(int rollno,String name,float fee){  
+                 this.rollno=rollno;  
+                 this.name=name;  
+                 this.fee=fee;  
+        }
+        
+         
+super- super is also a keyword in java which is also a 
+reference variable but it points to immediate parent class object.
+Example - 
+          class Animal{  
+                String color="white";  
+          }  
+          
+          class Dog extends Animal{  
+                String color="black";  
+                void printColor(){  
+                     System.out.println(color);  
+                     System.out.println(super.color);
+                }  
+          }  
+          
+          class TestSuper{  
+                public static void main(String args[]){  
+                     Dog d=new Dog();  
+                     d.printColor();  
+                 }
+          }    
+ 
