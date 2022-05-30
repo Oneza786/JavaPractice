@@ -1,0 +1,32 @@
+Is-A v/s Has-A Relationship -
+
+The relationship between an Animal and a dog is referred to
+"Is-a" relationship.
+Meaning - A dog "is-a" Animal or a Sedan "is-a" Car.
+
+The relationship between a person and his/her name/address is 
+referred to "has-a" relationship.
+Meaning - A person "has-a" name or a person "has-a" address
+
+
+
+
+
+ACCESS MODIFIERS- 
+In Java, there are 4 types of access modifiers -
+1. Public
+2. Private
+3. Protected
+4. Default
+
+1.Public- Visibility of public member is everywhere. It can be accessed
+          outside the class and even outside the package.
+2. Private - Visibility of a private member is only inside the class it is
+           defined.
+3. Protected - Protected members can be accessed through the child class
+            outside the package and easily within the package.
+4. Default - Visibility of a default member is only within the package.
+             If you don't any other access modifier before a member then
+             it is a default member, we don't need to explicitly write 
+             the default keyword.
+ 
