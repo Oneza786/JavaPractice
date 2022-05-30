@@ -1,0 +1,2 @@
+Multiple inheritance is not supported in java because it creates
+ambiguity for the complier.
