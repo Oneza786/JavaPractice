@@ -1,0 +1,3 @@
+Dynamic Polymorphism- Dynamic Polymorphism in Java is achieved by 
+Method Overriding. Meaning a parent class method can be reused in a 
+child class with the same name and signature just the body can be changed.
