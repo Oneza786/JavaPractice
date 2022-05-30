@@ -1,48 +1,51 @@
 package com.javaEval2.q3;
 
 public class Ola {
-	int kms;
-	int f;
+
+	String s;
+	int km;
 	public Car bookCar(int numberOfPassenger, int numberOfKMs)
 	{
 		
+		Sedan sedan=new Sedan();
+		HatchBack hatch=new HatchBack();
+		
 		if(numberOfPassenger<=3)
 		{
-			Car carSedan=new Sedan();
-			carSedan.setNumberOfKms(numberOfKMs);
-			kms=carSedan.getNumberOfKms();
-			Sedan c1=(Sedan)carSedan;
-			f=c1.farePerKm;
-			return c1;
+			s="hatch";
+			hatch.setNumberOfKms(numberOfKMs);
+			km=hatch.getNumberOfKms();
+			return hatch;
 		}
 		else
 		{
-			Car carHatch=new HatchBack();
-			carHatch.setNumberOfKms(numberOfKMs);
-			kms=carHatch.getNumberOfKms();
-			HatchBack h1=(HatchBack)carHatch;
-			f=h1.farePerKm;
-			return h1;
+			s="sedan";
+			sedan.setNumberOfKms(numberOfKMs);
+			km=sedan.getNumberOfKms();
+			return sedan;
 		}
 	}
-
+	int f;
 	public int calculateBill(Car car)
 	{
 		
-		if(car.equals("c1"))
+		if(s.equals("sedan"))
 		{
-			Sedan s=new Sedan();
-			int fare=s.farePerKm;
-			int bill=fare*kms;
+			
+			Sedan d1=(Sedan)car;
+			f=d1.farePerKm;
+			int bill=km*f;
 			return bill;
 		}
-		else 
+		else
 		{
-			HatchBack h=new HatchBack();
-			int fare=h.farePerKm;
-			int bill=fare*kms;
+			HatchBack d1=(HatchBack)car;
+			f=d1.farePerKm;
+			int bill=km*f;
 			return bill;
 		}
+		
+		 
 		
 	}
 
