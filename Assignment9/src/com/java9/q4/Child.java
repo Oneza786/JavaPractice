@@ -16,8 +16,7 @@ public final class Child extends Parent{
 		int number = s1.nextInt();
 		
 		
-//		Child c1 = new Child();
-//		c1.method1(number);
+
 
 		Parent p = new Child();
 		p.method1(number);
@@ -27,6 +26,6 @@ public final class Child extends Parent{
 		c.method4();
 		
 		
-		s1.close();
+		
 	}
 }
