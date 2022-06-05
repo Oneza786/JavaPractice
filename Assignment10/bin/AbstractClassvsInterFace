@@ -1,0 +1,21 @@
+Abstract Class - An class which is declared as "Abstract" is known 
+                 as abstract class. An abstract class can have abstract
+                 and non-abstract methods and cannot be instantiate.
+
+Example - public abstract classA
+          {
+               public abstract void fun1();
+          } 
+          
+
+
+Interface - An Interface is a blueprint of a class. An Interface is
+            can be implemented by and class. Interface in java is used
+            to achieve 100% abstraction. 
+            
+Example -  Interface Intr
+           {
+               //static variables
+               //abstract methods 
+           } 
+                 
