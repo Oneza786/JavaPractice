@@ -7,10 +7,10 @@ public class HistoryStudent extends Student{
 	int civicsMarks;
 
 	@Override
-	public void getPercentage() {
+	public double getPercentage() {
 		
-		int p=(historyMarks+civicsMarks)/2;
-		
+		double p=(historyMarks+civicsMarks)/2;
+		return p;
 	}
 
 }

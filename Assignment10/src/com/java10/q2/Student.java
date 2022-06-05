@@ -4,7 +4,12 @@ public abstract class Student {
 	String name;
 	String address;
 	
-	public abstract void getPercentage();
+	public abstract double getPercentage();
+	
+	public Student()
+	{
+		
+	}
 
 	public Student(String name, String address) {
 		super();

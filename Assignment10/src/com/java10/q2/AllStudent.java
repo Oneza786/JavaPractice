@@ -10,7 +10,7 @@ public class AllStudent {
 				+ "and h for History Student");
 		String sub=sc.next();
 		
-		if(sub=="s")
+		if(sub.equals("s"))
 		{
 			ScienceStudent science=new ScienceStudent();
 			System.out.println("Enter the Name of Student ");
@@ -27,14 +27,15 @@ public class AllStudent {
 			science.chemistryMarks=chem;
 			System.out.println("Enter Student Physics Markjs");
 			int phy=sc.nextInt();
-			science.physicsMarks=phy;
+			double ans=science.physicsMarks=phy;
 			science.getPercentage();
 			System.out.println("Student Details- ");
 			System.out.println("Name- "+name);
 			System.out.println("Address- "+add);
-			System.out.println("Percentage- "+per);
+			System.out.println("Percentage- "+ans);
+			
 		}
-		else if(sub=="h")
+		else if(sub.equals("h"))
 		{
 			HistoryStudent history=new HistoryStudent();
 			System.out.println("Enter the Name of Student ");
@@ -49,11 +50,12 @@ public class AllStudent {
 			System.out.println("Enter Student Chemistry Marks ");
 			int his=sc.nextInt();
 			history.historyMarks=his;
-			int per=history.getPercentage();
+			double ans=history.getPercentage();
 			System.out.println("Student Details- ");
 			System.out.println("Name- "+name);
 			System.out.println("Address- "+add);
-			System.out.println("Percentage- "+per);
+			System.out.println("Percentage- "+ans);
+		
 			
 		}
 		

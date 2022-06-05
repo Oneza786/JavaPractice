@@ -7,9 +7,9 @@ public class ScienceStudent extends Student {
 	int mathsMarks;
 	
 	@Override
-	public void getPercentage() {
+	public double getPercentage() {
 		int p=(physicsMarks+chemistryMarks+mathsMarks)/3;
-		
+		return p;
 		
 	}
 	
