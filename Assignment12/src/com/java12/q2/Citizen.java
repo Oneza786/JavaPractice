@@ -4,6 +4,8 @@ public class Citizen {
 	private String name;
 	private String aadharNumber;
 	private String mobileNumber;
+	
+	
 	public String getName() {
 		return name;
 	}
