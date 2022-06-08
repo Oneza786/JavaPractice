@@ -25,5 +25,10 @@ public class Citizen {
 		this.mobileNumber = mobileNumber;
 	}
 	
-	
+	public void printCustomerDetails()
+	{
+		System.out.println("Name = "+name);
+		System.out.println("Mobile Number = "+mobileNumber);
+		System.out.println("Aadhaar Number = "+aadharNumber);
+	}
 }
